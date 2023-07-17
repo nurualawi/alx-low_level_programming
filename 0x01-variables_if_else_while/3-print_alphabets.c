@@ -8,9 +8,9 @@
 int main(void)
 
 {
-	char lowerCase = 'a';
+	int lowerCase = 'a';
 
-	char upperCase = 'A';
+	int upperCase = 'A';
 
 	while (lowerCase <= 'z')
 
@@ -19,7 +19,7 @@ int main(void)
 
 	lowerCase += 1;
 	}
-	while (upperCase <= 'A')
+	while (upperCase <= 'Z')
 	{
 	putchar(upperCase);
 
