@@ -17,13 +17,13 @@ int main(void)
 	{
 	putchar(lowerCase);
 
-	lowerCase++;
+	lowerCase += 1;
 	}
-
+	while (upperCase <= 'A')
 	{
 	putchar(upperCase);
 
-	upperCase++;
+	upperCase += 1;
 	}
 	putchar('\n');
 
