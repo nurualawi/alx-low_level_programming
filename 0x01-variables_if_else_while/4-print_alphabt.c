@@ -2,31 +2,30 @@
 /**
  *main - Entry point
  *
- *Return: always on success
+ *Return: always 0 on success
  */
 
 int main(void)
 
 {
-	char lowerCase = 'a';
 
-	char upperCase = 'A';
+	int lowerCase = 'a';
+
 
 	while (lowerCase <= 'z')
 
 	{
+	if (lowerCase == 'e' || lowerCase == 'q')
+	{
+	lowerCase += 1;
+	}
+	else
+	{
 	putchar(lowerCase);
 
-	lowerCase++;
+	lowerCase += 1;
 	}
-
-	{
-	putchar(upperCase);
-
-	upperCase++;
 	}
 	putchar('\n');
-
 	return (0);
 }
-
